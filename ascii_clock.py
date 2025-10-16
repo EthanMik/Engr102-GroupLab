@@ -20,8 +20,8 @@ def main():
 
     # Input validation for clock type
     while(len(type) != 2
-          or not(type[0].isdigit)
-          or not(type[1].isdigit)
+          or not(type[0] in "1234567890")
+          or not(type[1] in "1234567890")
           or int(type) != 12
           or int(type) != 24):
         print("Invalid clock type entered, please enter again" , end = ": ")
