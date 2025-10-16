@@ -1,3 +1,10 @@
+person = {
+    "name": "Alice",
+    "age": 30,
+    "skills": ["python", "sql"],
+    "active": True
+}
+
 def main():
     pass
 
