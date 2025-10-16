@@ -1,0 +1,17 @@
+Clock -> Clocktype
+Clocktype -> 12 , 24
+- 12: time, character
+- 24: time, character
+
+Variables:
+character: one character string
+time: number based string with a colon
+type: type of clock, two digit integer
+
+Test Cases:
+- 0, 12:00, 0, 12, 0, a
+- 15:123, 15:12, 12, B, b
+- 1:00, 12, =
+- 2:00, 24, $
+- 24:00, 23:00, 24, *
+
